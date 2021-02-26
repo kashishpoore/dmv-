@@ -1,0 +1,36 @@
+<html>
+<head>
+  <link rel = "stylesheet" href = "dmvstyle.css">
+  <script>
+function age()
+{
+var x = document.getElementById("year1").value;
+var y = 2021-x;
+
+x = parseInt(x);
+
+if(x <= 2005){
+  document.getElementById("response1").innerHTML= "You are " + y + " and old enough to drive";
+}
+else {
+document.getElementById("response1").innerHTML = "You are " + y + " and not old enough to drive";
+
+}
+}
+  </script>
+</head>
+
+<body>
+  <CENTER>
+  <h1 id = "head"> CAN YOU DRIVE? </h1>
+  <input type = "text" value = "BIRTH YEAR" id = "year1">
+  <input id = "button1" type = "button" value = "CHECK" onclick = "age()">
+  <p id = "response1">
+  <center>
+
+</body>
+
+
+
+
+</html>

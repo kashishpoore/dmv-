@@ -1,0 +1,23 @@
+body{
+  text-align: center;
+  background-color:#5c5c8a ;
+}
+
+#body{
+  color: #ccff99;
+}
+#head{
+  color: #ccff99;
+  font-size: 74px;
+  margin-top: 210px;
+}
+
+#button1{
+  color: #ccff99;
+  text-decoration: none;
+  background-color: #657483;
+}
+
+#response1 {
+color: #ccff99;
+}
